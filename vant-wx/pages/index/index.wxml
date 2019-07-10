@@ -26,17 +26,17 @@
       <van-tab title="雷雨" title-style="font-size:25rpx;">
 
         <view class="btn_container">
-          <view class="btn">
-            <view class="btn_icon_wrap active">
-              <icon class="iconfont icon-shouye btn_icon"></icon>
+          <view class="btn" bindtap="btn_click" id="1">
+            <view class="btn_icon_wrap {{isSelect==1?'active':''}}">
+              <icon class="iconfont icon-shouye btn_icon"  ></icon>
             </view>
             <view class="btn_font">
               雨落屋檐
             </view>
           </view>
 
-           <view class="btn">
-            <view class="btn_icon_wrap">
+           <view class="btn" bindtap="btn_click" id="2">
+            <view class="btn_icon_wrap {{isSelect==2?'active':''}}">
               <icon class="iconfont icon-neike btn_icon"></icon>
             </view>
             <view class="btn_font">
@@ -44,8 +44,8 @@
             </view>
           </view>
 
-          <view class="btn">
-            <view class="btn_icon_wrap">
+          <view class="btn" bindtap="btn_click" id="3">
+            <view class="btn_icon_wrap {{isSelect==3?'active':''}}">
               <icon class="iconfont icon-waike btn_icon"></icon>
             </view>
             <view class="btn_font">
@@ -53,8 +53,8 @@
             </view>
           </view>
 
-          <view class="btn">
-            <view class="btn_icon_wrap ">
+          <view class="btn" bindtap="btn_click" id="4">
+            <view class="btn_icon_wrap {{isSelect==4?'active':''}}">
               <icon class="iconfont icon-zhongyike btn_icon"></icon>
             </view>
             <view class="btn_font">
@@ -62,8 +62,8 @@
             </view>
           </view>
 
-          <view class="btn">
-            <view class="btn_icon_wrap">
+          <view class="btn" bindtap="btn_click" id="5">
+            <view class="btn_icon_wrap {{isSelect==5?'active':''}}">
               <icon class="iconfont icon-chuanranke btn_icon"></icon>
             </view>
             <view class="btn_font">

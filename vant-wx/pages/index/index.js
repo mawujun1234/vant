@@ -5,13 +5,21 @@ const app = getApp()
 Page({
   data: {
     active: 0,
-    tabbar_active:'home'
+    tabbar_active:'home',
+    isSelect:""
   },
   onChange(event) {
     console.log(event.detail);
     this.setData({
       tabbar_active: event.detail
     });
+  },
+  btn_click(event){
+    console.log(event);
+    this.setData({
+      isSelect: event.currentTarget.id
+    });
+    //event.currentTarget.add
   },
   onLoad: function () {
     if (app.globalData.userInfo) {
