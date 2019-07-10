@@ -4,7 +4,14 @@ const app = getApp()
 
 Page({
   data: {
-    active: 1
+    active: 0,
+    tabbar_active:'home'
+  },
+  onChange(event) {
+    console.log(event.detail);
+    this.setData({
+      tabbar_active: event.detail
+    });
   },
   onLoad: function () {
     if (app.globalData.userInfo) {

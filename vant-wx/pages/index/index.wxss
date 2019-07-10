@@ -1,4 +1,73 @@
 /**index.wxss**/
 .header{
-  height:260rpx;
+  height:550rpx;
+  text-align: center;
+}
+.shoye{
+  position:absolute;
+  z-index: 9999;
+  width:100%;
+}
+.shoye_fornt_title {
+  margin-top:50rpx;
+  
+  color: white;
+}
+.shoye_icon{
+  font-size:200rpx;
+  color: white;
+}
+.shoye_font{
+  font-size:150%;
+  color: white;
+}
+.circular_container {
+  position:absolute;
+  top:-1350rpx;
+  left:-500rpx;
+}
+.circular{
+ width:1800rpx;
+ height:1800rpx;
+ border-radius:1800rpx;
+ position:absolute;
+ opacity:0.1;
+ background-color:red;
+}
+.circular0{
+ left:0px;
+ top:0rpx;
+}
+.circular1{
+ left:-20px;
+ top:20rpx;
+}
+.circular2{
+ left:-10px;
+ top:40rpx;
+}
+.circular3{
+ left:-15px;
+ top:80rpx;
+}
+.circular4{
+ left:5px;
+ top:20rpx;
+}
+.circular5{
+ left:8px;
+ top:40rpx;
+}
+.circular6{
+ left:12px;
+ top:80rpx;
+}
+
+
+.nav-class{
+  height:11rpx;
+}
+
+.custom-class{
+  width:20rpx;
 }
