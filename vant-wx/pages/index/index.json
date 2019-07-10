@@ -4,5 +4,6 @@
     "van-tabs": "../../dist/tabs/index",
     "van-tabbar": "../../dist/tabbar/index",
     "van-tabbar-item": "../../dist/tabbar-item/index"
+    ,"van-icon": "../../dist/icon/index"
   }
 }
